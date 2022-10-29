@@ -1,3 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
 body {
   --logo: url(/images/NW7RA-logo-light.png) no-repeat;
 }
@@ -9,5 +14,3 @@ body[data-theme="dark"] {
 header img.img-circle {
   background: var(--logo);
 }
-
-@import "jekyll-theme-minimalist";
