@@ -1,9 +1,3 @@
-# Donate
-
-Support our machines and our site, please Donate what you're able.
-
-Our rent and utility bills are currently estimated at $1500 / year.
-
 # Machines
 
 ## `WA7ROB` 441.100 MHz T100 +500
