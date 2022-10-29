@@ -3,9 +3,14 @@
 
 @import "{{ site.theme }}";
 
+header img.img-circle {
+  background: url(/images/NW7RA-logo-dark-text.png) no-repeat;
+  height: 10vh;
+}
+
 @media screen and (prefers-color-scheme: dark) {
   header img.img-circle {
     background: url(/images/NW7RA-logo-light-text.png) no-repeat;
-    background-size: 100%;
+    height: 10vh;
   }
 }

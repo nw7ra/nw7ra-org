@@ -28,11 +28,11 @@
         <header>
           <a href="{{ "/" | absolute_url }}">
           {% if site.logo %}
-            <img
+            <div
               class="img-circle"
-              src="{{site.logo | relative_url}}"
-              alt="{{ site.title | default: site.github.repository_name }}"
+              title="{{ site.title | default: site.github.repository_name }}"
             >
+	    </div>
           {% else %}
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           {% endif %}
