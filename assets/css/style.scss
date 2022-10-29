@@ -4,11 +4,11 @@
 @import "{{ site.theme }}";
 
 body {
-  --logo: url(/images/NW7RA-logo-light.png) no-repeat;
+  --logo: url(/images/NW7RA-logo-dark-text.png) no-repeat;
 }
 
 body[data-theme="dark"] {
-  --logo: url(/images/NW7RA-logo-dark.png) no-repeat;
+  --logo: url(/images/NW7RA-logo-light-text.png) no-repeat;
 }
 
 header img.img-circle {
