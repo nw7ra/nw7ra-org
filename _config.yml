@@ -1,6 +1,6 @@
 title: NW7RA
 description: Northwest Repeater Association
-logo: /images/NW7RA-logo-light-text.png
+logo: /images/NW7RA-logo-dark-text.png
 plugins:
   - jekyll-remote-theme
 remote_theme: BDHU/minimalist

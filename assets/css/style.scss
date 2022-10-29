@@ -3,14 +3,8 @@
 
 @import "{{ site.theme }}";
 
-body {
-  --logo: url(/images/NW7RA-logo-dark-text.png) no-repeat;
-}
-
-body[data-theme="dark"] {
-  --logo: url(/images/NW7RA-logo-light-text.png) no-repeat;
-}
-
-header img.img-circle {
-  background: var(--logo);
+@media screen and (prefers-color-scheme: dark) {
+  header img.img-circle {
+    background: url(/images/NW7RA-logo-light-text.png) no-repeat;
+  }
 }
