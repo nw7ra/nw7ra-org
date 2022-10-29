@@ -1,0 +1,13 @@
+body {
+  --logo: url(/images/NW7RA-logo-light.png) no-repeat;
+}
+
+body[data-theme="dark"] {
+  --logo: url(/images/NW7RA-logo-dark.png) no-repeat;
+}
+
+header img.img-circle {
+  background: var(--logo);
+}
+
+@import "jekyll-theme-minimalist";

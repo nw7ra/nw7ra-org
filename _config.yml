@@ -1,0 +1,6 @@
+title: NW7RA
+description: Northwest Repeater Association
+logo: /images/CRAMnet-logos.jpeg
+plugins:
+  - jekyll-remote-theme
+remote_theme: BDHU/minimalist
